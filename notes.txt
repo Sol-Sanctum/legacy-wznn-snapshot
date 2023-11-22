@@ -1,0 +1,53 @@
+1. Assuming all 26,660 wZNN in the bridge have been redeemed on NoM
+2. Supply (113,885.44756169) - Bridged (26,660.38369086) = 87,225.06387083 wZNN
+3. Addresses that mistakenly sent funds to the wZNN contract = 721.06339391 wZNN
+
+4. snapshot 0x84b174628911896a3b87fa6980d05dbc2ee74836 blocks 12846862 - 28277403
+12846862 == airdrop
+https://bscscan.com/tx/0x98abec489bad9e674263946dfb7b126f086a0d51a5ea126c123c5e37f414ba51
+
+28277403 == last bridge redemption + 1
+https://bscscan.com/tx/0x7376d578466a7e9f3e41035ac26bee239e67c29228f207bc517097d5bee95b6e
+
+5. snapshot 0xE6B03fCB16dAf3462DdfB8B0AFb3F0E87d38d884 blocks 12847445 - 28277403
+12847445 == contract creation
+28277403 == last bridge redemption + 1
+based on this output, calculate wZNN holdings for liquidity providers
+
+--------------------------------------
+
+ZNN Bridge: https://explorer.zenon.org/address/z1qzlytaqdahg5t02nz5096frflfv7dm3y7yxmg7
+
+-------
+
+wZNN deployer: https://bscscan.com/address/0x928f10e104b7ee84f03a421d23d87d37e54f58e0
+First tx block: 12847024
+
+-------
+
+wZNN token contract: https://bscscan.com/address/0x84b174628911896a3b87fa6980d05dbc2ee74836
+Max supply: 113,885.44756169 wZNN
+BALANCE (at the time of writing): 721.06339391 wZNN
+
+SNAP INFO
+0xC5f21F3cc565A17c009E8497f9EEC35dB17AeFf1 : 40.0
+0x1012EBbD28e0e7f2B8b14D9831B5941F3AAF2fe4 : 657.31008168
+0x7C910D8361b11A650831F3cDCd1D20eDF14dFa06 : 21.75331223
+0xfd0f868b6c2726106f1970CD6F0a58Db780F2c29 : 1.0
+0xaC2D1651D6186e3783022d111001a4c59A83210a : 1.0
+Note: These transactions were mistakes that we can reimburse
+
+-------
+
+wZNN bridge contract: https://bscscan.com/address/0x1cea61d82818329559cc872b5b89b037c9848c01
+Last transfer block: 28277402 (187 days 22 hrs ago)
+BALANCE (at the time of writing): 26,660.38369086 wZNN
+
+-------
+
+PancakeSwap BNB-wZNN LP: https://www.bscscan.com/address/0xE6B03fCB16dAf3462DdfB8B0AFb3F0E87d38d884
+Created at block: 12847445
+Balance (at the time of writing): 5,304.35446828 wZNN
+Balance (at the time of writing): 8.228723120559391027 WBNB
+LP Token: https://www.bscscan.com/token/0xE6B03fCB16dAf3462DdfB8B0AFb3F0E87d38d884
+Current Max Total Supply: 0.00174 Cake-LP

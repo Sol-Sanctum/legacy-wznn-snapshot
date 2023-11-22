@@ -1,0 +1,10 @@
+{
+  "provider": "https://rpc.ankr.com/bsc/61b41ac10478b3b356024431625340608a40e6f662feab6c26ada7abedbdb898",
+  "contractAddress": "0x84b174628911896a3b87fa6980d05dbc2ee74836",
+  "fromBlock": "12846862",
+  "toBlock": "28277403",
+  "blocksPerBatch": "1000",
+  "delay": 0,
+  "format": "both",
+  "checkIfContract": "yes"
+}
